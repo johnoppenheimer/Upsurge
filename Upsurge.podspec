@@ -1,8 +1,6 @@
-version = `git describe --long --tags | cut -f 1 -d '-'`.chomp
-
 Pod::Spec.new do |s|
   s.name = 'Upsurge'
-  s.version = version
+  s.version = '0.10.3'
   s.license = 'MIT'
   s.summary = 'Swift + Accelerate'
   s.homepage = 'https://github.com/aleph7/Upsurge'
